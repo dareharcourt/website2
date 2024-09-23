@@ -1,0 +1,111 @@
+body {
+    background-color: white;
+    ;
+/* Remove the extra closing curly brace */
+header {
+    justify-content: space-between;
+    padding: 10px;
+    text-align: right;
+}
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    border: 1px solid #8B9F95;
+    border-radius: 4px;
+    width: 100%;
+    text-align: center;
+    box-shadow: #8B9F95;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    text-align: right;
+    background-color: white;
+}
+.item {
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8B9F95;
+    background-color: white;
+}
+.item:hover {
+    background-color: #8B9F95;
+    color: white;
+    box-shadow: #8B9F95;
+}
+.announcement {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.news {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: #8B9F95;
+    color: white;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.shows {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: right;
+    background-color: white;
+    color: #8B9F95;
+    width: 50%;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.abouttop {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: #8B9F95;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    margin-top: 5%
+    ;
+}
+.aboutme {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: white;
+    color: #8B9F95;
+    font-family: Arial, Helvetica, sans-serif;
+    justify-content: space-between;
+    border: solid 1px #8B9F95;
+    margin: 10%;
+    gap: 0;
+}
+.abouttext {
+    text-align: center;
+    background-color: white;
+    color: #8B9F95;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 4;
+    border: solid 1px #8B9F95;
+    margin-left: -30px;
+}
+.image{
+    display: flex;
+    flex: 1;
+}
